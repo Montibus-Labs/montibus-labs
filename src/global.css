@@ -31,12 +31,12 @@ section {
 
 .inputBox{
   width: 100%;
-  background-color: #673AB7;
+  background-color: #FFF;
   border: none;
   border-radius: 10px;
   padding: 20px;
   text-decoration-color: white;
-  color: white
+  color: #000;
 }
 
 textarea:focus{
@@ -49,4 +49,8 @@ footer{
 
 footer a {
   color: white
+}
+
+.submitButton {
+  background-color: #3FA347;
 }

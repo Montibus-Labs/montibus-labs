@@ -5,7 +5,7 @@ export default function End() {
   return (
     <div
       className="container-fluid"
-      style={{ backgroundColor: "#7E57C2", color: "white" }}
+      style={{ backgroundColor: "#4EB855", color: "black" }}
     >
       <div className="container">
         <div className="flexbox">
@@ -28,7 +28,7 @@ export default function End() {
               </div>
             </div>
             <textarea rows = "2" className="inputBox mb-4" placeholder="Your Message" />
-            <button className="btn btn-light mb-4 py-3">
+            <button className="btn btn-light mb-4 py-3 submitButton">
               Submit
             </button>
           </Fade>

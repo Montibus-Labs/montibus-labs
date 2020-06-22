@@ -27,6 +27,7 @@ function LandingPage() {
 
   const welcomeStyle = {
     letterSpacing: "0.25em",
+    color: "#9ED194",
   }
 
   return (
@@ -42,7 +43,7 @@ function LandingPage() {
               padding: "10px",
               border: "none",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-              background: "#FFA800",
+              background: "#4EB855",
               borderRadius: "30px",
               textTransform: "uppercase",
               color : "white",
