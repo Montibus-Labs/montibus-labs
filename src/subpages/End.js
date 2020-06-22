@@ -10,7 +10,7 @@ export default function End() {
       <div className="container">
         <div className="flexbox">
           <Fade left>
-            <h1 className="text-center my-5">Stay in touch</h1>
+            <h1 id="contact" className="text-center my-5">Stay in touch</h1>
             <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
               <input type="hidden" name="bot-field" />
               <input type="hidden" name="form-name" value="contact" />

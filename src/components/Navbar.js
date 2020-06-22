@@ -10,20 +10,20 @@ function Navbar() {
   return (
     <div className="pos-f-t">
       <div className="collapse" id="navbarToggleExternalContent">
-        <div className="bg-light   p-4">
+        <div className="p-4">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <AnchorLink className="nav-link" href="#">
+              <AnchorLink className="navItem" href="#">
                 Home <span className="sr-only">(current)</span>
               </AnchorLink>
             </li>
             <li className="nav-item">
-              <AnchorLink className="nav-link" href="#services">
+              <AnchorLink className="nav-link navItem" href="#services">
                 Services
               </AnchorLink>
             </li>
             <li className="nav-item">
-              <AnchorLink className="nav-link" href="#team">
+              <AnchorLink className="nav-link navItem" href="#team">
                 Work (Used to be team)
               </AnchorLink>
             </li>

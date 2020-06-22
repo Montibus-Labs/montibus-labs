@@ -52,3 +52,20 @@ footer a {
   border-color: #9ED194;
   width: 100%;
 }
+
+.openNav {
+  background: transparent;
+}
+ .navItem {
+   color: #4EB855;
+ }
+
+.navItem:hover {
+  text-decoration: none;
+  color: #9ED194;
+}
+
+#startButton {
+  color: #EEE;
+  text-decoration: none;
+}
