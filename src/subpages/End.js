@@ -20,6 +20,7 @@ export default function End() {
                     type="name"
                     className="inputBox"
                     placeholder="Your Name"
+                    name="name"
                   />
                 </div>
                 <div className="col-lg-6 mb-4">
@@ -27,10 +28,14 @@ export default function End() {
                     type="email"
                     className="inputBox"
                     placeholder="Your Email"
+                    name="email"
                   />
                 </div>
               </div>
-              <textarea rows = "2" className="inputBox mb-4" placeholder="Your Message" />
+              <textarea rows = "2"
+                name="message"
+                className="inputBox mb-4"
+                placeholder="Your Message" />
               <button className="btn btn-light mb-4 py-3 submitButton" type="submit" >
                 Submit
               </button>
