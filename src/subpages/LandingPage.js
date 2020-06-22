@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql  } from "gatsby"
 
 function LandingPage() {
   const { pageDataYaml } = useStaticQuery(graphql`

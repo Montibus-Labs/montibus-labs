@@ -1,5 +1,5 @@
 import React from "react"
-import { SocialIcon } from "react-social-icons"
+// import { SocialIcon } from "react-social-icons"
 
 function Footer() {
   return (
@@ -30,6 +30,7 @@ function Footer() {
               href="http://creativecommons.org/licenses/by/3.0/"
               title="Creative Commons BY 3.0"
               target="_blank"
+              rel="noreferrer"
             >
               CC 3.0 BY
             </a>

@@ -10,6 +10,7 @@ function Services() {
           node {
             title
             src
+            alt
           }
         }
       }
@@ -21,8 +22,8 @@ function Services() {
         <div className="flexbox">
           <h1 className="text-center my-5">Services We Offer </h1>
           <div className="row">
-            {allServicesYaml.edges.map(({ node }) => {
-              return <ServiceItem title={node.title} src={node.src} />
+            {allServicesYaml.edges.map(({ node }, index) => {
+              return <ServiceItem key={index} title={node.title} src={node.src} alt={node.alt} />
             })}
           </div>
         </div>
