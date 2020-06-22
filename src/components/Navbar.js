@@ -24,7 +24,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <AnchorLink class="nav-link" href="#team">
-                Team
+                Work (Used to be team)
               </AnchorLink>
             </li>
           </ul>
