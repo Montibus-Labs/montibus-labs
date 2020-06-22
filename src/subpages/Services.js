@@ -1,23 +1,11 @@
 import React from "react"
-import ServiceItem from "../components/ServiceItem"
-import { useStaticQuery, graphql } from "gatsby"
+// import ServiceItem from "../components/ServiceItem"
+// import { useStaticQuery, graphql } from "gatsby"
 import Fade from "react-reveal/Fade"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faRocket, faMagic, faCommentsDollar } from "@fortawesome/free-solid-svg-icons";
 
 function Services() {
-  const { allServicesYaml } = useStaticQuery(graphql`
-    {
-      allServicesYaml {
-        edges {
-          node {
-            title
-            faIcon
-          }
-        }
-      }
-    }
-  `)
   return (
     <div id = "services" className="container-fluid" style={{ backgroundColor: "#9ed194" }}>
       <div className="container">
