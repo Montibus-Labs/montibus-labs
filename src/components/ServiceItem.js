@@ -1,11 +1,13 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faRocket, faMagic, faCommentsDollar } from "@fortawesome/free-solid-svg-icons";
 
-function ServiceItem({ src, title, alt }) {
+function ServiceItem({ src, title, icon}) {
   return (
     <Fade bottom>
       <div className="col-lg-3 my-4 col-sm-12">
-        <img src={src} width="128px" alt={alt} />
+        <FontAwesomeIcon icon={faMagic} size="9x" />
         <h3 className="mt-5">{title}</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
