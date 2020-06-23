@@ -1,5 +1,6 @@
 import React from "react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Logo from "../images/ML-Logo.png";
 
 function Navbar() {
   const textStyle = {
@@ -32,6 +33,7 @@ function Navbar() {
       </div>
       <nav className="navbar navbar-dark">
         <h4 style={textStyle}>MONTIBUS LABS</h4>
+        <img src={Logo} alt="monuntains logo" className="img-fluid" width="75px" />
         <button
           className="navbar-toggler"
           type="button"
