@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-krisp`,
+        name: `montibus-labs-hompage`,
         short_name: `montibus-labs`,
         start_url: `/`,
         background_color: `#663399`,
@@ -33,6 +33,12 @@ module.exports = {
       options: {
         path: `./content/data/`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID || "nada",
+      }
     },
   ],
 }
