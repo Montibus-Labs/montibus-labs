@@ -15,6 +15,12 @@ section {
   width: 100%;
 }
 
+@media only screen and (max-device-width: 480px) {
+  #landingText {
+    font-size: 1.5rem !important;
+  }
+}
+
 .flexbox {
   height: 100%;
   display: flex;

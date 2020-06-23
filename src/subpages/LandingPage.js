@@ -37,7 +37,7 @@ function LandingPage() {
         <Navbar />
         <div className="centerItems">
           <h6 style={welcomeStyle}>{welcomeText}</h6>
-          <h1>{landingText}</h1>
+          <h1 id="landingText">{landingText}</h1>
           <button
             style={{
               width: "200px",
