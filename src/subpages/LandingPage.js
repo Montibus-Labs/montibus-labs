@@ -53,7 +53,7 @@ function LandingPage() {
             }}
           >
             <AnchorLink id="startButton" href="#contact">
-            Start a Project
+              Let's Talk
             </AnchorLink>
           </button>
         </div>
